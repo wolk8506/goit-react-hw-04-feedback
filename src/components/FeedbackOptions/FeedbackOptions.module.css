@@ -1,0 +1,27 @@
+.btnBlock{
+    display: flex;
+    justify-content: center;
+}
+
+.btnBlock .btn+.btn{
+    margin-left: 30px;
+    
+}
+
+.btn{
+  
+        height: 30px;
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: linear-gradient(118.38deg, #29323c -4.6%, #485563 200.44%);
+        margin: 0;
+        padding: 0 10px;
+        border-radius: 10px;
+        border: 2px solid #1c2229;
+       
+        color: #7fff00;
+        text-shadow: 1px 1px 3px #f8f6d4d0;
+}
